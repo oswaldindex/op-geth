@@ -21,8 +21,8 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum-op"
-	"github.com/ethereum/go-ethereum-op/event"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	"github.com/oswaldindex/op-geth/event"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 // DownloaderAPI provides an API which gives information about the current synchronisation status.

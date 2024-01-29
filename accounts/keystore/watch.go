@@ -23,8 +23,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/log"
 	"github.com/fsnotify/fsnotify"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 type watcher struct {

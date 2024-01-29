@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/crypto"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

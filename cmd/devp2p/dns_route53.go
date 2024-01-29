@@ -29,8 +29,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/credentials"
 	"github.com/aws/aws-sdk-go-v2/service/route53"
 	"github.com/aws/aws-sdk-go-v2/service/route53/types"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/p2p/dnsdisc"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/p2p/dnsdisc"
 	"github.com/urfave/cli/v2"
 	"golang.org/x/exp/slices"
 )

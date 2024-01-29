@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/oswaldindex/op-geth/common"
 )
 
 // EVMLogger is used to collect execution traces from an EVM transaction

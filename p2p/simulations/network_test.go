@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/node"
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
-	"github.com/ethereum/go-ethereum-op/p2p/simulations/adapters"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/node"
+	"github.com/oswaldindex/op-geth/p2p/enode"
+	"github.com/oswaldindex/op-geth/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

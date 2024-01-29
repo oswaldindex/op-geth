@@ -19,7 +19,7 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

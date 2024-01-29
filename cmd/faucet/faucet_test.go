@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/oswaldindex/op-geth/common"
 )
 
 func TestFacebook(t *testing.T) {

@@ -17,8 +17,8 @@
 package engine
 
 import (
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 // EngineAPIError is a standardized error message between consensus and execution

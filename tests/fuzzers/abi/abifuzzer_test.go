@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/accounts/abi"
 	fuzz "github.com/google/gofuzz"
+	"github.com/oswaldindex/op-geth/accounts/abi"
 )
 
 // TestReplicate can be used to replicate crashers from the fuzzing tests.

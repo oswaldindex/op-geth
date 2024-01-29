@@ -23,16 +23,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/txpool"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/ethdb"
-	"github.com/ethereum/go-ethereum-op/event"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/txpool"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/ethdb"
+	"github.com/oswaldindex/op-geth/event"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 const (

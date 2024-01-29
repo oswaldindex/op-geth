@@ -24,13 +24,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/consensus/ethash"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/params"
-	"github.com/ethereum/go-ethereum-op/trie"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/consensus/ethash"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/params"
+	"github.com/oswaldindex/op-geth/trie"
 )
 
 // makeChain creates a chain of n blocks starting at and including parent.

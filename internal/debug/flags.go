@@ -26,13 +26,13 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/ethereum/go-ethereum-op/internal/flags"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/metrics"
-	"github.com/ethereum/go-ethereum-op/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
+	"github.com/oswaldindex/op-geth/internal/flags"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/metrics"
+	"github.com/oswaldindex/op-geth/metrics/exp"
 	"github.com/urfave/cli/v2"
 	"gopkg.in/natefinch/lumberjack.v2"
 )

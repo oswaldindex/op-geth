@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
-	"github.com/ethereum/go-ethereum-op/common/math"
-	"github.com/ethereum/go-ethereum-op/signer/core/apitypes"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
+	"github.com/oswaldindex/op-geth/common/math"
+	"github.com/oswaldindex/op-geth/signer/core/apitypes"
 )
 
 // GnosisSafeTx is a type to parse the safe-tx returned by the relayer,

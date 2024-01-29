@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

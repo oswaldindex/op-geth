@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/vm"
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/vm"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 type dummyContractRef struct {
@@ -76,7 +76,7 @@ func TestStoreCapture(t *testing.T) {
 }
 
 // Tests that blank fields don't appear in logs when JSON marshalled, to reduce
-// logs bloat and confusion. See https://github.com/ethereum/go-ethereum-op/issues/24487
+// logs bloat and confusion. See https://github.com/oswaldindex/op-geth/issues/24487
 func TestStructLogMarshalingOmitEmpty(t *testing.T) {
 	tests := []struct {
 		name string

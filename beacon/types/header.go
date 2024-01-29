@@ -21,9 +21,9 @@ import (
 	"crypto/sha256"
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum-op/beacon/merkle"
-	"github.com/ethereum/go-ethereum-op/beacon/params"
-	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/oswaldindex/op-geth/beacon/merkle"
+	"github.com/oswaldindex/op-geth/beacon/params"
+	"github.com/oswaldindex/op-geth/common"
 )
 
 //go:generate go run github.com/fjl/gencodec -type Header -field-override headerMarshaling -out gen_header_json.go

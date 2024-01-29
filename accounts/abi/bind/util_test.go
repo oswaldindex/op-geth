@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum-op/accounts/abi/bind/backends"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/crypto"
+	"github.com/oswaldindex/op-geth/accounts/abi/bind"
+	"github.com/oswaldindex/op-geth/accounts/abi/bind/backends"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

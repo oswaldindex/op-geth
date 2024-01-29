@@ -39,25 +39,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/accounts"
-	"github.com/ethereum/go-ethereum-op/accounts/keystore"
-	"github.com/ethereum/go-ethereum-op/cmd/utils"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/eth/downloader"
-	"github.com/ethereum/go-ethereum-op/eth/ethconfig"
-	"github.com/ethereum/go-ethereum-op/ethclient"
-	"github.com/ethereum/go-ethereum-op/ethstats"
-	"github.com/ethereum/go-ethereum-op/internal/version"
-	"github.com/ethereum/go-ethereum-op/les"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/node"
-	"github.com/ethereum/go-ethereum-op/p2p"
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
-	"github.com/ethereum/go-ethereum-op/p2p/nat"
-	"github.com/ethereum/go-ethereum-op/params"
 	"github.com/gorilla/websocket"
+	"github.com/oswaldindex/op-geth/accounts"
+	"github.com/oswaldindex/op-geth/accounts/keystore"
+	"github.com/oswaldindex/op-geth/cmd/utils"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/eth/downloader"
+	"github.com/oswaldindex/op-geth/eth/ethconfig"
+	"github.com/oswaldindex/op-geth/ethclient"
+	"github.com/oswaldindex/op-geth/ethstats"
+	"github.com/oswaldindex/op-geth/internal/version"
+	"github.com/oswaldindex/op-geth/les"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/node"
+	"github.com/oswaldindex/op-geth/p2p"
+	"github.com/oswaldindex/op-geth/p2p/enode"
+	"github.com/oswaldindex/op-geth/p2p/nat"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 var (
@@ -458,7 +458,7 @@ func (f *faucet) apiHandler(w http.ResponseWriter, r *http.Request) {
 			id = username
 		default:
 			//lint:ignore ST1005 This error is to be displayed in the browser
-			err = errors.New("Something funky happened, please open an issue at https://github.com/ethereum/go-ethereum-op/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/oswaldindex/op-geth/issues")
 		}
 		if err != nil {
 			if err = sendError(wsconn, err); err != nil {

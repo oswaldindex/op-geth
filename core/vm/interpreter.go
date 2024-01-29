@@ -17,10 +17,10 @@
 package vm
 
 import (
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/math"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/math"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 // Config are the configuration options for the Interpreter

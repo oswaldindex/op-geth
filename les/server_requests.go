@@ -20,17 +20,17 @@ import (
 	"encoding/binary"
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/txpool"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/light"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/metrics"
-	"github.com/ethereum/go-ethereum-op/rlp"
-	"github.com/ethereum/go-ethereum-op/trie"
-	"github.com/ethereum/go-ethereum-op/trie/trienode"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/txpool"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/light"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/metrics"
+	"github.com/oswaldindex/op-geth/rlp"
+	"github.com/oswaldindex/op-geth/trie"
+	"github.com/oswaldindex/op-geth/trie/trienode"
 )
 
 // serverBackend defines the backend functions needed for serving LES requests

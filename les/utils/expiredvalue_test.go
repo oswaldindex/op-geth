@@ -19,7 +19,7 @@ package utils
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common/mclock"
+	"github.com/oswaldindex/op-geth/common/mclock"
 )
 
 func TestValueExpiration(t *testing.T) {

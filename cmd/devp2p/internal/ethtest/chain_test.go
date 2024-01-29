@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum-op/p2p"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/eth/protocols/eth"
+	"github.com/oswaldindex/op-geth/p2p"
 	"github.com/stretchr/testify/assert"
 )
 

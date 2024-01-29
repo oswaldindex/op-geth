@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 const (

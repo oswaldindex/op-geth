@@ -19,10 +19,10 @@ package ethtest
 import (
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum-op/internal/utesting"
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/eth/protocols/eth"
+	"github.com/oswaldindex/op-geth/internal/utesting"
+	"github.com/oswaldindex/op-geth/p2p/enode"
 )
 
 // Suite represents a structure used to test a node's conformance

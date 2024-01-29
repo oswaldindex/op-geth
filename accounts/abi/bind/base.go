@@ -25,11 +25,11 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum-op"
-	"github.com/ethereum/go-ethereum-op/accounts/abi"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/event"
+	"github.com/oswaldindex/op-geth/accounts/abi"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/event"
 )
 
 const basefeeWiggleMultiplier = 2

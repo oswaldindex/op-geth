@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common/bitutil"
+	"github.com/oswaldindex/op-geth/common/bitutil"
 )
 
 func FuzzEncoder(f *testing.F) {

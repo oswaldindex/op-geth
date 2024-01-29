@@ -16,7 +16,7 @@
 
 package params
 
-import "github.com/ethereum/go-ethereum-op/common"
+import "github.com/oswaldindex/op-geth/common"
 
 // MainnetBootnodes are the enode URLs of the P2P bootstrap nodes running on
 // the main Ethereum network.

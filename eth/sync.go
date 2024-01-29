@@ -21,11 +21,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/eth/downloader"
-	"github.com/ethereum/go-ethereum-op/eth/protocols/eth"
-	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/eth/downloader"
+	"github.com/oswaldindex/op-geth/eth/protocols/eth"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 const (

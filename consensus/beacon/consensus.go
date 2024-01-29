@@ -21,15 +21,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/consensus"
-	"github.com/ethereum/go-ethereum-op/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum-op/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/params"
-	"github.com/ethereum/go-ethereum-op/rpc"
-	"github.com/ethereum/go-ethereum-op/trie"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/consensus"
+	"github.com/oswaldindex/op-geth/consensus/misc/eip1559"
+	"github.com/oswaldindex/op-geth/consensus/misc/eip4844"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/params"
+	"github.com/oswaldindex/op-geth/rpc"
+	"github.com/oswaldindex/op-geth/trie"
 )
 
 // Proof-of-stake protocol constants.

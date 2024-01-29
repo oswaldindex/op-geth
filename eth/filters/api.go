@@ -26,11 +26,11 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum-op"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/internal/ethapi"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/internal/ethapi"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 var (

@@ -5,9 +5,9 @@ import (
 	uurl "net/url"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/metrics"
 	client "github.com/influxdata/influxdb1-client/v2"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/metrics"
 )
 
 type reporter struct {

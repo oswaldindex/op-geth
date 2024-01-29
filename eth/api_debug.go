@@ -22,17 +22,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/internal/ethapi"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/rlp"
-	"github.com/ethereum/go-ethereum-op/rpc"
-	"github.com/ethereum/go-ethereum-op/trie"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/internal/ethapi"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/rlp"
+	"github.com/oswaldindex/op-geth/rpc"
+	"github.com/oswaldindex/op-geth/trie"
 )
 
 // DebugAPI is the collection of Ethereum full node APIs for debugging the

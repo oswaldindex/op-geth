@@ -3,9 +3,9 @@ package catalyst
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/metrics"
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/metrics"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 var (

@@ -24,12 +24,12 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ethereum/go-ethereum-op/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum-op/cmd/utils"
-	"github.com/ethereum/go-ethereum-op/common/compiler"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/internal/flags"
-	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/oswaldindex/op-geth/accounts/abi/bind"
+	"github.com/oswaldindex/op-geth/cmd/utils"
+	"github.com/oswaldindex/op-geth/common/compiler"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/internal/flags"
+	"github.com/oswaldindex/op-geth/log"
 	"github.com/urfave/cli/v2"
 )
 

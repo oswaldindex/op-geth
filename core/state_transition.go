@@ -22,11 +22,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	cmath "github.com/ethereum/go-ethereum-op/common/math"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/core/vm"
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/common"
+	cmath "github.com/oswaldindex/op-geth/common/math"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/core/vm"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 // ExecutionResult includes all output after executing given evm

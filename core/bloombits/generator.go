@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum-op/core/types"
+	"github.com/oswaldindex/op-geth/core/types"
 )
 
 var (

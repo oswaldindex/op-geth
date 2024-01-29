@@ -26,20 +26,20 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/math"
-	"github.com/ethereum/go-ethereum-op/consensus"
-	"github.com/ethereum/go-ethereum-op/consensus/beacon"
-	"github.com/ethereum/go-ethereum-op/consensus/ethash"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/core/vm"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum-op/ethdb"
-	"github.com/ethereum/go-ethereum-op/params"
-	"github.com/ethereum/go-ethereum-op/trie"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/math"
+	"github.com/oswaldindex/op-geth/consensus"
+	"github.com/oswaldindex/op-geth/consensus/beacon"
+	"github.com/oswaldindex/op-geth/consensus/ethash"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/core/vm"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/eth/tracers/logger"
+	"github.com/oswaldindex/op-geth/ethdb"
+	"github.com/oswaldindex/op-geth/params"
+	"github.com/oswaldindex/op-geth/trie"
 )
 
 // So we can deterministically seed different blockchains
@@ -1754,7 +1754,7 @@ func testEIP161AccountRemoval(t *testing.T, scheme string) {
 // tests that under weird reorg conditions the blockchain and its internal header-
 // chain return the same latest block/header.
 //
-// https://github.com/ethereum/go-ethereum-op/pull/15941
+// https://github.com/oswaldindex/op-geth/pull/15941
 func TestBlockchainHeaderchainReorgConsistency(t *testing.T) {
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.HashScheme)
 	testBlockchainHeaderchainReorgConsistency(t, rawdb.PathScheme)
@@ -2056,8 +2056,8 @@ func testInsertReceiptChainRollback(t *testing.T, scheme string) {
 // overtake the 'canon' chain until after it's passed canon by about 200 blocks.
 //
 // Details at:
-//   - https://github.com/ethereum/go-ethereum-op/issues/18977
-//   - https://github.com/ethereum/go-ethereum-op/pull/18988
+//   - https://github.com/oswaldindex/op-geth/issues/18977
+//   - https://github.com/oswaldindex/op-geth/pull/18988
 func TestLowDiffLongChain(t *testing.T) {
 	testLowDiffLongChain(t, rawdb.HashScheme)
 	testLowDiffLongChain(t, rawdb.PathScheme)

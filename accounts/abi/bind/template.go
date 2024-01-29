@@ -16,7 +16,7 @@
 
 package bind
 
-import "github.com/ethereum/go-ethereum-op/accounts/abi"
+import "github.com/oswaldindex/op-geth/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -91,12 +91,12 @@ import (
 	"strings"
 	"errors"
 
-	ethereum "github.com/ethereum/go-ethereum-op"
-	"github.com/ethereum/go-ethereum-op/accounts/abi"
-	"github.com/ethereum/go-ethereum-op/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/event"
+	ethereum "github.com/oswaldindex/op-geth"
+	"github.com/oswaldindex/op-geth/accounts/abi"
+	"github.com/oswaldindex/op-geth/accounts/abi/bind"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

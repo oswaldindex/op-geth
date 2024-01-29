@@ -28,8 +28,8 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set/v2"
-	"github.com/ethereum/go-ethereum-op/log"
 	"github.com/gorilla/websocket"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 const (

@@ -1,4 +1,4 @@
-module github.com/ethereum/go-ethereum-op
+module github.com/oswaldindex/op-geth
 
 go 1.20
 

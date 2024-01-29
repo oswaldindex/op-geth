@@ -27,17 +27,17 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum-op"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
-	"github.com/ethereum/go-ethereum-op/common/math"
-	"github.com/ethereum/go-ethereum-op/consensus/misc/eip1559"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/eth/filters"
-	"github.com/ethereum/go-ethereum-op/internal/ethapi"
-	"github.com/ethereum/go-ethereum-op/rlp"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	ethereum "github.com/oswaldindex/op-geth"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
+	"github.com/oswaldindex/op-geth/common/math"
+	"github.com/oswaldindex/op-geth/consensus/misc/eip1559"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/eth/filters"
+	"github.com/oswaldindex/op-geth/internal/ethapi"
+	"github.com/oswaldindex/op-geth/rlp"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 var (

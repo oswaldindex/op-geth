@@ -44,13 +44,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/internal/flags"
-	"github.com/ethereum/go-ethereum-op/p2p"
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
-	"github.com/ethereum/go-ethereum-op/p2p/simulations"
-	"github.com/ethereum/go-ethereum-op/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/internal/flags"
+	"github.com/oswaldindex/op-geth/p2p"
+	"github.com/oswaldindex/op-geth/p2p/enode"
+	"github.com/oswaldindex/op-geth/p2p/simulations"
+	"github.com/oswaldindex/op-geth/p2p/simulations/adapters"
+	"github.com/oswaldindex/op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

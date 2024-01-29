@@ -19,8 +19,8 @@ package downloader
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 // syncState starts downloading state with the given root hash.

@@ -23,17 +23,17 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/state/snapshot"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/metrics"
-	"github.com/ethereum/go-ethereum-op/params"
-	"github.com/ethereum/go-ethereum-op/trie"
-	"github.com/ethereum/go-ethereum-op/trie/trienode"
-	"github.com/ethereum/go-ethereum-op/trie/triestate"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/state/snapshot"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/metrics"
+	"github.com/oswaldindex/op-geth/params"
+	"github.com/oswaldindex/op-geth/trie"
+	"github.com/oswaldindex/op-geth/trie/trienode"
+	"github.com/oswaldindex/op-geth/trie/triestate"
 )
 
 const (
@@ -717,7 +717,7 @@ func (s *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range s.journal.dirties {
-		// As documented [here](https://github.com/ethereum/go-ethereum-op/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/oswaldindex/op-geth/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

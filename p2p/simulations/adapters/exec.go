@@ -34,13 +34,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/internal/reexec"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/node"
-	"github.com/ethereum/go-ethereum-op/p2p"
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
-	"github.com/ethereum/go-ethereum-op/rpc"
 	"github.com/gorilla/websocket"
+	"github.com/oswaldindex/op-geth/internal/reexec"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/node"
+	"github.com/oswaldindex/op-geth/p2p"
+	"github.com/oswaldindex/op-geth/p2p/enode"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 func init() {

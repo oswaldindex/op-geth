@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"math/bits"
 
-	"github.com/ethereum/go-ethereum-op/beacon/params"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
+	"github.com/oswaldindex/op-geth/beacon/params"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
 	bls "github.com/protolambda/bls12-381-util"
 )
 

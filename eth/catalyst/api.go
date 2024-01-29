@@ -24,17 +24,17 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/beacon/engine"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/eth"
-	"github.com/ethereum/go-ethereum-op/eth/downloader"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/miner"
-	"github.com/ethereum/go-ethereum-op/node"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	"github.com/oswaldindex/op-geth/beacon/engine"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/eth"
+	"github.com/oswaldindex/op-geth/eth/downloader"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/miner"
+	"github.com/oswaldindex/op-geth/node"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 // Register adds the engine API to the full node.

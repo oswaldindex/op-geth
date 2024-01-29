@@ -26,8 +26,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common/math"
 	"github.com/holiman/uint256"
+	"github.com/oswaldindex/op-geth/common/math"
 )
 
 type testEncoder struct {

@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/rpc"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 // SuggestOptimismPriorityFee returns a max priority fee value that can be used such that newly

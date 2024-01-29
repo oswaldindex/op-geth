@@ -20,7 +20,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/oswaldindex/op-geth/log"
 )
 
 type (

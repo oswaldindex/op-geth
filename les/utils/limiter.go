@@ -19,7 +19,7 @@ package utils
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
+	"github.com/oswaldindex/op-geth/p2p/enode"
 	"golang.org/x/exp/slices"
 )
 

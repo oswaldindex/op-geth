@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common/mclock"
+	"github.com/oswaldindex/op-geth/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

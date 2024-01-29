@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/p2p"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

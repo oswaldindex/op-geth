@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/console/prompt"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/eth"
-	"github.com/ethereum/go-ethereum-op/eth/ethconfig"
-	"github.com/ethereum/go-ethereum-op/internal/jsre"
-	"github.com/ethereum/go-ethereum-op/miner"
-	"github.com/ethereum/go-ethereum-op/node"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/console/prompt"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/eth"
+	"github.com/oswaldindex/op-geth/eth/ethconfig"
+	"github.com/oswaldindex/op-geth/internal/jsre"
+	"github.com/oswaldindex/op-geth/miner"
+	"github.com/oswaldindex/op-geth/node"
 )
 
 const (

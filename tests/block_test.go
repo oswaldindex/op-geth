@@ -19,8 +19,8 @@ package tests
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/rawdb"
 )
 
 func TestBlockchain(t *testing.T) {

@@ -34,10 +34,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/crypto/ecies"
-	"github.com/ethereum/go-ethereum-op/rlp"
 	"github.com/golang/snappy"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/crypto/ecies"
+	"github.com/oswaldindex/op-geth/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

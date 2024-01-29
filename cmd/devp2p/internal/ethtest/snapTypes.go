@@ -16,7 +16,7 @@
 
 package ethtest
 
-import "github.com/ethereum/go-ethereum-op/eth/protocols/snap"
+import "github.com/oswaldindex/op-geth/eth/protocols/snap"
 
 // GetAccountRange represents an account range query.
 type GetAccountRange snap.GetAccountRangePacket

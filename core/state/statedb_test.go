@@ -30,17 +30,17 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/state/snapshot"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/rlp"
-	"github.com/ethereum/go-ethereum-op/trie"
-	"github.com/ethereum/go-ethereum-op/trie/triedb/hashdb"
-	"github.com/ethereum/go-ethereum-op/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum-op/trie/trienode"
 	"github.com/holiman/uint256"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/state/snapshot"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/rlp"
+	"github.com/oswaldindex/op-geth/trie"
+	"github.com/oswaldindex/op-geth/trie/triedb/hashdb"
+	"github.com/oswaldindex/op-geth/trie/triedb/pathdb"
+	"github.com/oswaldindex/op-geth/trie/trienode"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to
@@ -160,7 +160,7 @@ func TestIntermediateLeaks(t *testing.T) {
 
 // TestCopy tests that copying a StateDB object indeed makes the original and
 // the copy independent of each other. This test is a regression test against
-// https://github.com/ethereum/go-ethereum-op/pull/15549.
+// https://github.com/oswaldindex/op-geth/pull/15549.
 func TestCopy(t *testing.T) {
 	// Create a random state test to copy and modify "independently"
 	orig, _ := New(types.EmptyRootHash, NewDatabase(rawdb.NewMemoryDatabase()), nil)
@@ -550,7 +550,7 @@ func TestTouchDelete(t *testing.T) {
 }
 
 // TestCopyOfCopy tests that modified objects are carried over to the copy, and the copy of the copy.
-// See https://github.com/ethereum/go-ethereum-op/pull/15225#issuecomment-380191512
+// See https://github.com/oswaldindex/op-geth/pull/15225#issuecomment-380191512
 func TestCopyOfCopy(t *testing.T) {
 	state, _ := New(types.EmptyRootHash, NewDatabase(rawdb.NewMemoryDatabase()), nil)
 	addr := common.HexToAddress("aaaa")
@@ -567,7 +567,7 @@ func TestCopyOfCopy(t *testing.T) {
 // Tests a regression where committing a copy lost some internal meta information,
 // leading to corrupted subsequent copies.
 //
-// See https://github.com/ethereum/go-ethereum-op/issues/20106.
+// See https://github.com/oswaldindex/op-geth/issues/20106.
 func TestCopyCommitCopy(t *testing.T) {
 	tdb := NewDatabase(rawdb.NewMemoryDatabase())
 	state, _ := New(types.EmptyRootHash, tdb, nil)
@@ -641,7 +641,7 @@ func TestCopyCommitCopy(t *testing.T) {
 // Tests a regression where committing a copy lost some internal meta information,
 // leading to corrupted subsequent copies.
 //
-// See https://github.com/ethereum/go-ethereum-op/issues/20106.
+// See https://github.com/oswaldindex/op-geth/issues/20106.
 func TestCopyCopyCommitCopy(t *testing.T) {
 	state, _ := New(types.EmptyRootHash, NewDatabase(rawdb.NewMemoryDatabase()), nil)
 

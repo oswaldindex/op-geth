@@ -22,7 +22,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/ethereum/go-ethereum-op/metrics"
+	"github.com/oswaldindex/op-geth/metrics"
 )
 
 const (

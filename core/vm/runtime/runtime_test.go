@@ -23,21 +23,21 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op/accounts/abi"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/consensus"
-	"github.com/ethereum/go-ethereum-op/core"
-	"github.com/ethereum/go-ethereum-op/core/asm"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/core/state"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/core/vm"
-	"github.com/ethereum/go-ethereum-op/eth/tracers"
-	"github.com/ethereum/go-ethereum-op/eth/tracers/logger"
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/accounts/abi"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/consensus"
+	"github.com/oswaldindex/op-geth/core"
+	"github.com/oswaldindex/op-geth/core/asm"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/core/state"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/core/vm"
+	"github.com/oswaldindex/op-geth/eth/tracers"
+	"github.com/oswaldindex/op-geth/eth/tracers/logger"
+	"github.com/oswaldindex/op-geth/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/ethereum/go-ethereum-op/eth/tracers/js"
+	_ "github.com/oswaldindex/op-geth/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {
@@ -599,7 +599,7 @@ func TestEip2929Cases(t *testing.T) {
 
 // TestColdAccountAccessCost test that the cold account access cost is reported
 // correctly
-// see: https://github.com/ethereum/go-ethereum-op/issues/22649
+// see: https://github.com/oswaldindex/op-geth/issues/22649
 func TestColdAccountAccessCost(t *testing.T) {
 	for i, tc := range []struct {
 		code []byte

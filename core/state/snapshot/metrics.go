@@ -16,7 +16,7 @@
 
 package snapshot
 
-import "github.com/ethereum/go-ethereum-op/metrics"
+import "github.com/oswaldindex/op-geth/metrics"
 
 // Metrics in generation
 var (

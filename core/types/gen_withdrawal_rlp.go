@@ -2,7 +2,7 @@
 
 package types
 
-import "github.com/ethereum/go-ethereum-op/rlp"
+import "github.com/oswaldindex/op-geth/rlp"
 import "io"
 
 func (obj *Withdrawal) EncodeRLP(_w io.Writer) error {

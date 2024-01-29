@@ -19,8 +19,8 @@ package ethash
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum-op/core/types"
 	"github.com/holiman/uint256"
+	"github.com/oswaldindex/op-geth/core/types"
 )
 
 const (

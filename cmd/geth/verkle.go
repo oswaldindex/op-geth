@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum-op/cmd/utils"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/core/rawdb"
-	"github.com/ethereum/go-ethereum-op/internal/flags"
-	"github.com/ethereum/go-ethereum-op/log"
 	"github.com/gballet/go-verkle"
+	"github.com/oswaldindex/op-geth/cmd/utils"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/core/rawdb"
+	"github.com/oswaldindex/op-geth/internal/flags"
+	"github.com/oswaldindex/op-geth/log"
 	cli "github.com/urfave/cli/v2"
 )
 

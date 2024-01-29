@@ -30,13 +30,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum-op/event"
-	"github.com/ethereum/go-ethereum-op/p2p"
-	"github.com/ethereum/go-ethereum-op/p2p/enode"
-	"github.com/ethereum/go-ethereum-op/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum-op/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
+	"github.com/oswaldindex/op-geth/event"
+	"github.com/oswaldindex/op-geth/p2p"
+	"github.com/oswaldindex/op-geth/p2p/enode"
+	"github.com/oswaldindex/op-geth/p2p/simulations/adapters"
+	"github.com/oswaldindex/op-geth/rpc"
 )
 
 // DefaultClient is the default simulation API client which expects the API

@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/eth/downloader"
-	"github.com/ethereum/go-ethereum-op/eth/ethconfig"
-	"github.com/ethereum/go-ethereum-op/node"
-	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/oswaldindex/op-geth/eth/downloader"
+	"github.com/oswaldindex/op-geth/eth/ethconfig"
+	"github.com/oswaldindex/op-geth/node"
+	"github.com/oswaldindex/op-geth/params"
 )
 
 func TestSignalSuperchainV1(t *testing.T) {

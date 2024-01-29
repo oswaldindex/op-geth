@@ -19,8 +19,8 @@ package utils
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum-op/eth/ethconfig"
-	"github.com/ethereum/go-ethereum-op/internal/flags"
+	"github.com/oswaldindex/op-geth/eth/ethconfig"
+	"github.com/oswaldindex/op-geth/internal/flags"
 	"github.com/urfave/cli/v2"
 )
 

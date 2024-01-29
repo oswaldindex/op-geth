@@ -22,8 +22,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/ethereum/go-ethereum-op/common"
 	"github.com/holiman/uint256"
+	"github.com/oswaldindex/op-geth/common"
 )
 
 // evictHeap is a helper data structure to keep track of the cheapest bottleneck

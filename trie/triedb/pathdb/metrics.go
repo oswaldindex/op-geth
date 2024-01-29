@@ -16,7 +16,7 @@
 
 package pathdb
 
-import "github.com/ethereum/go-ethereum-op/metrics"
+import "github.com/oswaldindex/op-geth/metrics"
 
 var (
 	cleanHitMeter   = metrics.NewRegisteredMeter("pathdb/clean/hit", nil)

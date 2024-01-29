@@ -35,27 +35,27 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op/accounts"
-	"github.com/ethereum/go-ethereum-op/accounts/keystore"
-	"github.com/ethereum/go-ethereum-op/cmd/utils"
-	"github.com/ethereum/go-ethereum-op/common"
-	"github.com/ethereum/go-ethereum-op/common/hexutil"
-	"github.com/ethereum/go-ethereum-op/core/types"
-	"github.com/ethereum/go-ethereum-op/crypto"
-	"github.com/ethereum/go-ethereum-op/internal/ethapi"
-	"github.com/ethereum/go-ethereum-op/internal/flags"
-	"github.com/ethereum/go-ethereum-op/log"
-	"github.com/ethereum/go-ethereum-op/node"
-	"github.com/ethereum/go-ethereum-op/params"
-	"github.com/ethereum/go-ethereum-op/rlp"
-	"github.com/ethereum/go-ethereum-op/rpc"
-	"github.com/ethereum/go-ethereum-op/signer/core"
-	"github.com/ethereum/go-ethereum-op/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum-op/signer/fourbyte"
-	"github.com/ethereum/go-ethereum-op/signer/rules"
-	"github.com/ethereum/go-ethereum-op/signer/storage"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
+	"github.com/oswaldindex/op-geth/accounts"
+	"github.com/oswaldindex/op-geth/accounts/keystore"
+	"github.com/oswaldindex/op-geth/cmd/utils"
+	"github.com/oswaldindex/op-geth/common"
+	"github.com/oswaldindex/op-geth/common/hexutil"
+	"github.com/oswaldindex/op-geth/core/types"
+	"github.com/oswaldindex/op-geth/crypto"
+	"github.com/oswaldindex/op-geth/internal/ethapi"
+	"github.com/oswaldindex/op-geth/internal/flags"
+	"github.com/oswaldindex/op-geth/log"
+	"github.com/oswaldindex/op-geth/node"
+	"github.com/oswaldindex/op-geth/params"
+	"github.com/oswaldindex/op-geth/rlp"
+	"github.com/oswaldindex/op-geth/rpc"
+	"github.com/oswaldindex/op-geth/signer/core"
+	"github.com/oswaldindex/op-geth/signer/core/apitypes"
+	"github.com/oswaldindex/op-geth/signer/fourbyte"
+	"github.com/oswaldindex/op-geth/signer/rules"
+	"github.com/oswaldindex/op-geth/signer/storage"
 	"github.com/urfave/cli/v2"
 )
 
@@ -870,7 +870,7 @@ func checkFile(filename string) error {
 	}
 	// Check the unix permission bits
 	// However, on windows, we cannot use the unix perm-bits, see
-	// https://github.com/ethereum/go-ethereum-op/issues/20123
+	// https://github.com/oswaldindex/op-geth/issues/20123
 	if runtime.GOOS != "windows" && info.Mode().Perm()&0377 != 0 {
 		return fmt.Errorf("file (%v) has insecure file permissions (%v)", filename, info.Mode().String())
 	}
