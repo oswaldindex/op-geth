@@ -32,9 +32,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/ethereum/go-ethereum-op/core"
+	"github.com/ethereum/go-ethereum-op/rlp"
 	"golang.org/x/exp/slices"
 )
 

@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/ethereum/go-ethereum-op/consensus/misc/eip4844"
+	"github.com/ethereum/go-ethereum-op/core/types"
+	"github.com/ethereum/go-ethereum-op/crypto"
+	"github.com/ethereum/go-ethereum-op/ethdb"
+	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/ethereum/go-ethereum-op/params"
+	"github.com/ethereum/go-ethereum-op/rlp"
 	"golang.org/x/exp/slices"
 )
 

@@ -6,8 +6,8 @@ import (
 
 	"github.com/ethereum-optimism/superchain-registry/superchain"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/ethereum/go-ethereum-op/params"
 )
 
 func LoadOPStackGenesis(chainID uint64) (*Genesis, error) {

@@ -19,13 +19,13 @@ package trie
 import (
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie/triedb/hashdb"
-	"github.com/ethereum/go-ethereum/trie/triedb/pathdb"
-	"github.com/ethereum/go-ethereum/trie/trienode"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/ethereum/go-ethereum-op/ethdb"
+	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/ethereum/go-ethereum-op/trie/triedb/hashdb"
+	"github.com/ethereum/go-ethereum-op/trie/triedb/pathdb"
+	"github.com/ethereum/go-ethereum-op/trie/trienode"
+	"github.com/ethereum/go-ethereum-op/trie/triestate"
 )
 
 // Config defines all necessary options for database.

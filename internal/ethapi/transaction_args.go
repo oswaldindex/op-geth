@@ -23,14 +23,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc/eip4844"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/ethereum/go-ethereum-op/common/hexutil"
+	"github.com/ethereum/go-ethereum-op/common/math"
+	"github.com/ethereum/go-ethereum-op/consensus/misc/eip4844"
+	"github.com/ethereum/go-ethereum-op/core"
+	"github.com/ethereum/go-ethereum-op/core/types"
+	"github.com/ethereum/go-ethereum-op/log"
+	"github.com/ethereum/go-ethereum-op/rpc"
 	"github.com/holiman/uint256"
 )
 
@@ -48,7 +48,7 @@ type TransactionArgs struct {
 
 	// We accept "data" and "input" for backwards-compatibility reasons.
 	// "input" is the newer name and should be preferred by clients.
-	// Issue detail: https://github.com/ethereum/go-ethereum/issues/15628
+	// Issue detail: https://github.com/ethereum/go-ethereum-op/issues/15628
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input"`
 
@@ -151,7 +151,7 @@ func (args *TransactionArgs) setFeeDefaults(ctx context.Context, b Backend) erro
 	}
 	// If the tx has completely specified a fee mechanism, no default is needed.
 	// This allows users who are not yet synced past London to get defaults for
-	// other tx values. See https://github.com/ethereum/go-ethereum/pull/23274
+	// other tx values. See https://github.com/ethereum/go-ethereum-op/pull/23274
 	// for more information.
 	eip1559ParamsSet := args.MaxFeePerGas != nil && args.MaxPriorityFeePerGas != nil
 

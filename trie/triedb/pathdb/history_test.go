@@ -22,13 +22,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/trie/testutil"
-	"github.com/ethereum/go-ethereum/trie/triestate"
+	"github.com/ethereum/go-ethereum-op/common"
+	"github.com/ethereum/go-ethereum-op/core/rawdb"
+	"github.com/ethereum/go-ethereum-op/core/types"
+	"github.com/ethereum/go-ethereum-op/ethdb"
+	"github.com/ethereum/go-ethereum-op/rlp"
+	"github.com/ethereum/go-ethereum-op/trie/testutil"
+	"github.com/ethereum/go-ethereum-op/trie/triestate"
 )
 
 // randomStateSet generates a random state change set.
