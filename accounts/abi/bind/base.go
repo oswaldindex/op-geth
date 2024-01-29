@@ -24,7 +24,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum-op"
+	ethereum "github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/accounts/abi"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/core/types"

@@ -23,7 +23,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum-op"
+	ethereum "github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/consensus/ethash"
 	"github.com/oswaldindex/op-geth/core"

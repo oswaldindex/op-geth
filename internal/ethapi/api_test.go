@@ -29,11 +29,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op"
 	"github.com/holiman/uint256"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/slices"
 
+	ethereum "github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/accounts"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/common/hexutil"

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op"
+	ethereum "github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/accounts"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/common/hexutil"
