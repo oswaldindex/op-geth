@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op"
+	"github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/common/hexutil"
 	"github.com/oswaldindex/op-geth/core/types"

@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op"
+	"github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/core/rawdb"
 	"github.com/oswaldindex/op-geth/core/state/snapshot"

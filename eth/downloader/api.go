@@ -20,7 +20,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum/go-ethereum-op"
+	"github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/event"
 	"github.com/oswaldindex/op-geth/rpc"
 )

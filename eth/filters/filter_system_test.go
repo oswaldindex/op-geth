@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum-op"
+	"github.com/oswaldindex/op-geth"
 	"github.com/oswaldindex/op-geth/common"
 	"github.com/oswaldindex/op-geth/consensus/ethash"
 	"github.com/oswaldindex/op-geth/core"
